@@ -1,0 +1,83 @@
+.link{
+  text-decoration: none;
+}
+
+.fundo{
+    background-image:URL("../assets/fundoWEB.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top: 0;
+    right: 0;
+    z-index:-1
+}
+
+.Title{
+    color: rgb(0, 0, 0);
+    margin-top: 7%;
+    font-size: large;
+    margin-right: 2%;
+    font: 500 20px/32px Roboto, "Courier New", sans-serif;
+}
+
+.cards-container{
+        display: flex; /* Adiciona display: flex para alinhar os cards horizontalmente */
+        justify-content: space-around; /* Distribui os cards com espaço igual entre eles */
+}
+
+.card {
+  background-color: #fff; /* Define o fundo como branco */
+  box-shadow: 0 0 5px #1BAAE0, 0 0 10px #1BAAE0, 0 0 15px #1BAAE0; /* Efeito de borda neon */
+  width: 20%;
+  height: 20%;
+  margin-top: 5%;
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #1BAAE0; /* Adicione sombra ao passar o cursor para dar feedback visual */
+  color: black;
+}
+
+.cardTwo {
+  background-color: #fff; /* Define o fundo como branco */
+  box-shadow: 0 0 5px #1BAAE0, 0 0 10px #1BAAE0, 0 0 15px #1BAAE0; /* Efeito de borda neon */
+  width: 20%;
+  height: 20%;
+  margin-top: 5%;
+  color: black;
+}
+
+.cardTwo:hover {
+  box-shadow: 0 8px 16px 0 #1BAAE0; /* Adicione sombra ao passar o cursor para dar feedback visual */
+  color: black;
+}
+
+.cardThree {
+  background-color: #fff; /* Define o fundo como branco */
+  box-shadow: 0 0 5px #1BAAE0, 0 0 10px #1BAAE0, 0 0 15px #1BAAE0; /* Efeito de borda neon */
+  width: 20%;
+  height: 20%;
+  margin-top: 5%;
+  color: black;
+}
+
+.cardThree:hover {
+  box-shadow: 0 8px 16px 0 #1BAAE0; /* Adicione sombra ao passar o cursor para dar feedback visual */
+  color: black;
+}
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .containerTwo {
+    padding: 2px 16px;
+  }
+
+  .containerThree {
+    padding: 2px 16px;
+  }

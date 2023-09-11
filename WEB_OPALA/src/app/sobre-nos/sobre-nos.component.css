@@ -1,0 +1,89 @@
+.link{
+    text-decoration: none;
+  }
+  
+  .membros-container {
+    text-align: left; /* Alinhe o texto à esquerda */
+    margin-top: 20px; /* Adicione uma margem superior para separar dos textos acima */
+    padding-left: 20px; /* Adicione um recuo à esquerda para alinhar no canto esquerdo */
+  }
+     
+
+    /* Mantenha as classes de estilo existentes */
+
+.link {
+    text-decoration: none;
+  }
+
+  @keyframes neon {
+    0% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #1B1FD2;
+    }
+    20% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #1B1FD2;
+    }
+    40% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1B1FD2, 0 0 40px #1B1FD2;
+    }
+    60% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #1B1FD2, 0 0 30px #1B1FD2, 0 0 40px #1B1FD2;
+    }
+    80% {
+      text-shadow: 0 0 10px #1B1FD2, 0 0 20px #1B1FD2, 0 0 30px #1B1FD2, 0 0 40px #1B1FD2;
+    }
+    100% {
+      text-shadow: 0 0 10px #1B1FD2, 0 0 20px #1B1FD2, 0 0 30px #1B1FD2, 0 0 40px #fff;
+    }
+  }
+
+  .text1{
+  animation: neon 1s infinite alternate;
+  font-family: "Playfair Display", sans-serif;
+  position: flex; /* Altere para absolute para posicionar no canto esquerdo */
+  font-size: 25px; /* Aumenta o tamanho da fonte */
+  line-height: 1.2; /* Define o espaçamento entre as linhas */
+  color:#1B1FD2;
+  margin-top: -30px;
+  margin-left: 10px;
+  }
+
+  
+  /* Quando o mouse passar sobre as imagens, o efeito neon será mais forte */
+  
+    
+  /* Adicione uma classe para a área de rodapé */
+  .rodape {
+    position: fixed;
+    grid-area: rodape;
+    background-color: rgb(10, 26, 97); /* Cor vermelha */
+    color: white; /* Texto em branco */
+    top: 80px;
+    left: 0px;
+    width: 100vw;
+    height: 90vh;
+  }
+/* Mantenha os estilos existentes e adicione o seguinte */
+.membros {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  margin-top: 20px; /* Adiciona uma margem superior para separar dos textos acima */
+}
+
+
+
+/* Opcional: estilos para o texto dos membros */
+.membros-container h3 {
+  font-size: 25px; /* Tamanho do título */
+  margin-bottom: 8px; /* Margem inferior do título */
+  color:aqua;
+}
+
+.membros-container p {
+  font-size: 18px; /* Tamanho do texto */
+  color: #ffffff; /* Cor do texto */
+}
+
+
+
+
+
+

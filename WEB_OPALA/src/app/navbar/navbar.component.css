@@ -1,0 +1,222 @@
+/* Estilos para a primeira Navbar */
+.navbar1 {
+  position: fixed;
+  top: 0; /* Coloca a primeira Navbar no topo da tela */
+  display: flex;
+  justify-content: space-between; /* Alinha os elementos no espaço disponível */
+  align-items: center; /* Centraliza verticalmente os elementos */
+  background-color: #ffffff;
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-left: -10px;
+  height: 70px;
+  width: 100%; /* Define a largura como 100% para cobrir a largura da tela */
+  padding: 0;
+}
+
+.navbar-logo img {
+  display: block;
+  margin-right: 600px; /* Ajuste a margem da direita conforme necessário */
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Estilos para a segunda Navbar */
+.navbar {
+  position: fixed;
+  top: 70px; /* Coloca a segunda Navbar abaixo da primeira */
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  margin-left: -10px;
+  padding: 0;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-align: center; /* Centralize horizontalmente o texto */
+  line-height: 50px; /* Centralize verticalmente o texto */
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilos para o botão de menu móvel */
+@media (max-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar ul.show {
+    display: block;
+  }
+}
+
+
+/*SOBRE-NÓS*/
+
+body{
+  margin: 0;
+}
+
+.link{
+    text-decoration: none;
+  }
+
+  .membros-container {
+    text-align: left; /* Alinhe o texto à esquerda */
+    margin-top: 20px; /* Adicione uma margem superior para separar dos textos acima */
+    padding-left: 20px; /* Adicione um recuo à esquerda para alinhar no canto esquerdo */
+  }
+
+
+    /* Mantenha as classes de estilo existentes */
+
+.link {
+    text-decoration: none;
+  }
+
+  @keyframes neon {
+    0% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #1B1FD2;
+    }
+    20% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #1B1FD2;
+    }
+    40% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+    }
+    60% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000;
+    }
+    80% {
+      text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000;
+    }
+    100% {
+      text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #fff;
+    }
+  }
+
+  .text1{
+  animation: neon 1s infinite alternate;
+  font-family: "Playfair Display", sans-serif;
+  position: flex; /* Altere para absolute para posicionar no canto esquerdo */
+  font-size: 25px; /* Aumenta o tamanho da fonte */
+  line-height: 1.2; /* Define o espaçamento entre as linhas */
+  color:#000000;
+  margin-top: -30px;
+  margin-left: 10px;
+  }
+
+  .rodape {
+    position: flex;
+    grid-area: rodape;
+    background-color: #ffffff; /* Cor vermelha */
+    color: rgb(0, 0, 0); /* Texto em branco */
+    margin: 0;
+    margin-top: 220px; /* Margem superior negativa para sobrepor a classe .navbar */
+    margin-left: -8px;
+    padding: 0;
+    width: 101%;
+    height: 90vh;
+  }
+/* Mantenha os estilos existentes e adicione o seguinte */
+.membros {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  margin-top: 20px; /* Adiciona uma margem superior para separar dos textos acima */
+}
+
+
+
+/* Opcional: estilos para o texto dos membros */
+.membros-container h3 {
+  font-size: 25px; /* Tamanho do título */
+  margin-bottom: 8px; /* Margem inferior do título */
+  color:rgb(0, 0, 0);
+}
+
+.membros-container p {
+  font-size: 18px; /* Tamanho do texto */
+  color: #000000; /* Cor do texto */
+}
+
+.rodape1 {
+  position: flex;
+  grid-area: rodape;
+  background-color: #ffffff; /* Cor vermelha */
+  color: white; /* Texto em branco */
+  margin: 0;
+  margin-top: 90px; /* Margem superior negativa para sobrepor a classe .navbar */
+  margin-left: -8px;
+  padding: 0;
+  width: 101%;
+  height: 90vh;
+}
+
+/* Estilos para os cards */
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Distribui os cards horizontalmente */
+  margin-top: 20px; /* Adicione uma margem superior para separar dos textos acima */
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  margin-top: -20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+}
+
+#MARTE h2 {
+  font-size: 24px;
+  margin-bottom: 40px; /* Adicione um espaçamento inferior para separar do contêiner de cards */
+  color: #333; /* Cor do título */
+  text-align: center; /* Centralize o título horizontalmente */
+}
+
+
+/* OBJETIVO*/
+
+
+
+
+
+
+
